@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='500' preserveAspectRatio='none' viewBox='0 0 500 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1943%26quot%3b)' fill='none'%3e%3crect width='500' height='500' x='0' y='0' fill='url(%23SvgjsLinearGradient1944)'%3e%3c/rect%3e%3cpath d='M 0%2c392 C 100%2c352.2 400%2c232.8 500%2c193L500 500L0 500z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c177 C 100%2c228.8 400%2c384.2 500%2c436L500 500L0 500z' fill='rgba(15%2c 53%2c 102%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1943'%3e%3crect width='500' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1944'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 28%2c 62%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='500' preserveAspectRatio='none' viewBox='0 0 500 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1995%26quot%3b)' fill='none'%3e%3crect width='500' height='500' x='0' y='0' fill='url(%23SvgjsLinearGradient1996)'%3e%3c/rect%3e%3cpath d='M 0%2c111 C 50%2c152.6 150%2c293.8 250%2c319 C 350%2c344.2 450%2c253.4 500%2c237L500 500L0 500z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c226 C 50%2c276.4 150%2c505.6 250%2c478 C 350%2c450.4 450%2c166 500%2c88L500 500L0 500z' fill='rgba(15%2c 53%2c 102%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1995'%3e%3crect width='500' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1996'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 28%2c 62%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1000' height='1000' preserveAspectRatio='none' viewBox='0 0 1000 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2019%26quot%3b)' fill='none'%3e%3crect width='1000' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient2020)'%3e%3c/rect%3e%3cpath d='M 0%2c66 C 200%2c193.4 800%2c575.6 1000%2c703L1000 1000L0 1000z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c298 C 200%2c422.6 800%2c796.4 1000%2c921L1000 1000L0 1000z' fill='rgba(15%2c 53%2c 102%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2019'%3e%3crect width='1000' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2020'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 28%2c 62%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  height: 1500px;
+  background-size: cover;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon {
+  color: white;
+  margin: 0 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
+  position: sticky;
+  left: 0;
+  top: 15vh;
+  width: 15vw;
+  height: 70vh;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  background: linear-gradient(0deg, rgba(79, 79, 79, 0.766) 0%, rgba(149, 149, 149, 0.766) 100%);
   display: flex;
-  flex-direction: column;
+  flex-direction: column;;
+  color: white;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.navLink:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.WelcomePage {
+  z-index: 0;
+  height: 100vh;
+  position: absolute;
+  width: 70vw;
+  top: 0;
+  margin-left: 20vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.welcomePageImage {
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 80vh;
+}
+
+.welcomePageTextTitle {
+  font-size: 3vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcomePageTextTitle2 {
+  font-size: 2vw;
+  color: #afa9a0;
 }
